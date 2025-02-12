@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/617/247/non_2x/coffee-shop-logo-free-png.png" alt="Brewed Awakening Logo"> <!-- Logo image -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Brewed Awakening</h1>
+        <p>Your perfect cup is just a click away.</p>
+        <a href="#menu" class="cta-btn">View Menu</a>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://www.sharmispassions.com/wp-content/uploads/2012/07/espresso-coffee-recipe022.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>A bold and intense coffee.</p>
+                <span class="price">$3.50</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg/1200px-Caffe_Latte_at_Pulse_Cafe.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth and creamy with steamed milk.</p>
+                <span class="price">$4.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tastesoflizzyt.com/wp-content/uploads/2023/12/sourdough-pancakes-23.jpg" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes with syrup.</p>
+                <span class="price">$6.00</span>
+            </div>
+            <!-- Add more items -->
+        </div>
+    </section>
+
+    <section id="about-us" class="about-us">
+        <h2>About Us</h2>
+        <p>Brewed Awakening is a cozy, local coffee shop that serves the best brews in town. We aim to provide a welcoming environment for coffee lovers to unwind and enjoy our delicious offerings.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form()" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Brewed Awakening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+    
